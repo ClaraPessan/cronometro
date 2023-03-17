@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Cronômetro</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/componentes/botoes/botao.css">
+        <link rel="stylesheet" href="css/componentes/caixa/caixa.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <main>
+            <section class="caixa">
+                <div class="relogio">
+                    <h1 id="contagem">00:00:00</h1>
+                </div>
+
+                <div class="botoes">
+                    <button class="botao" id="start" onclick="start()">Start</button>
+                    <button class="botao" id="stop" onclick="stop()">Stop</button>
+                    <button class="botao" id="zerar" onclick="zerar()">Zerar</button>
+                </div>
+            </section>
+        </main>
+    </body>
+    <script src="js/script.js"></script>
+</html>
